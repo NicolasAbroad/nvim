@@ -37,7 +37,7 @@ o.tabstop = 4 -- Number of spaces that a <Tab> in the file counts for.
 
 -- Key mapping
 global.mapleader = " " -- leader
-global.maplocalleader = "." -- local leader
+global.maplocalleader = "," -- local leader
 
 local function map(mode, lhs, rhs)
     vim.keymap.set(mode, lhs, rhs, { silent = true })
